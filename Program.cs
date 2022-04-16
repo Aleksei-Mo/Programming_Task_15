@@ -9,11 +9,11 @@ DayOffCheck(dayNumber);
 
 void DayOffCheck (int dayNumber)
 {
-if (dayNumber==6 ^ dayNumber==7)
+if (dayNumber==6 ^ dayNumber==7)//this is weekend?
 {
     Console.WriteLine("This day is a day off.");
 }
-else if (dayNumber>0 & dayNumber<6)
+else if (dayNumber>0 & dayNumber<6)// this is work day?
 {
     Console.WriteLine("This is a work day.");
 }
